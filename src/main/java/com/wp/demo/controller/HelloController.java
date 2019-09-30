@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author 文攀 2019/09/29 17:35
  */
-@RestController
+@Controller
 public class HelloController {
 
     @GetMapping(value = "/hello")
-    @ResponseBody
     public String hello(){
         System.out.println("============>>>  test jenkins !!!!");
         return "hello";
