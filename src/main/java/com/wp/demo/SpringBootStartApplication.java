@@ -1,13 +1,16 @@
+/*
 package com.wp.demo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
+*/
 /**
  * description
  *
  * @author 文攀 2019/09/30 15:53
- */
+ *//*
+
 
 public class SpringBootStartApplication extends SpringBootServletInitializer {
 
@@ -17,3 +20,4 @@ public class SpringBootStartApplication extends SpringBootServletInitializer {
         return builder.sources(JenkinsDemoApplication.class);
     }
 }
+*/
